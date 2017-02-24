@@ -7,8 +7,12 @@
 	</head>
 	
 	<body>
-		<h1>Harder than it looks</h1>
-		<img src="Maie.jpg" alt="Sorry, missed it">
+		<h1>Welcome to my homepage!</h1>
+		<img src="kass.jpg" alt="Sorry, missed it" width="200" height="400"/>
+		<div>
+		<a href="/Harjutus1">Praktikum 1</a>
+		<a href="/Harjutus2">Praktikum 1</a>
+		</div>
 		
 	<?php 
 			echo phpversion(); 
