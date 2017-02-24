@@ -14,13 +14,17 @@
 		<a href="/~mpalmeos/Harjutus1">Praktikum 1</a> <br/>
 		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a>
 		</div>
+		<br/>
+		<br/>
 		
 		<div>
+		<h1>2. Praktikumi ülesanded</h1>
+		<br/>
 		<iframe src="/~mpalmeos/Harjutus2/praktikum2.html" name="iraam" height="500" width="500">
 		</iframe> <br/><br/>
-		<a href="Harjutus2/harjutus1.html" target="iraam">Harjutus 1</a> <br/><br/>
-		<a href="Harjutus2/harjutus2.html" target="iraam">Harjutus 2</a><br/><br/>
-		<a href="Harjutus2/harjutus2-2.html" target="iraam">Harjutus 2, osa 2</a><br/><br/>
+		<a href="Harjutus2/harjutus1.html" target="iraam">Harjutus 1</a> <br/>
+		<a href="Harjutus2/harjutus2.html" target="iraam">Harjutus 2</a><br/>
+		<a href="Harjutus2/harjutus2-2.html" target="iraam">Harjutus 2, osa 2</a><br/>
 		<a href="Harjutus2/praktikum2.html" target="iraam">Galerii ülesanne</a><br/>
 		</div>
 		
