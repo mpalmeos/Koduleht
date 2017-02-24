@@ -2,42 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Table mania!</title>
+	<title>Form mania!</title>
 </head>
 <body>
-	<table>
-	<caption>Andmed</caption>
-		<tr>
-			<th>Nimi</th><th>Vanus</th><th>Elukoht</th>
-		</tr>
-		<tr>
-			<td>Andrus</td><td>54</td><td>Tartu</td>
-		</tr>
-		<tr>
-			<td>Elvi</td><td>87</td><td>Elva</td>
-		</tr>
-		<tr>
-			<td>Kaarel</td><td>14</td><td>Tallinn</td>
-		</tr>
-		<tr>
-			<td>Jevgeni</td><td>28</td><td>Narva</td>
-		</tr>
-	</table>
-	<br/>
-	
-	<table border="2">
-		<tr>
-			<td colspan="3"> &nbsp &nbsp &nbsp </td><td rowspan="3"> &nbsp &nbsp &nbsp </td>
-		</tr>
-		<tr>
-			<td rowspan="3">&nbsp &nbsp &nbsp </td><td> &nbsp </td><td>&nbsp </td>
-		</tr>
-		<tr>
-			<td>&nbsp </td><td>&nbsp </td>
-		</tr>
-		<tr>
-			<td colspan="3">&nbsp &nbsp &nbsp </td>
-		</tr>
-	</table>
+	<form action="harjutus2.html" method="GET">
+	<input type="text" name="tekst" maxlength="20" placeholder="Kirjuta siia"/> <br/>
+	<input type="checkbox" name="asi" value="Valik 1" checked /><br/>
+	<input type="checkbox" name="asi" value="Valik 2"/><br/>
+	<input type="radio" name="radio" value="Valik 1"/><br/>
+	<input type="radio" name="radio" value="Valik 2"/><br/>
+	<input type="password" name="salakas" placeholder="Kirjuta salasõna"/><br/>
+	<input type="color" name="varv"/><br/>
+	<input type="date" name="paev"/><br/>
+	<input type="submit" value="Saada!">
+	</form>
 </body>
 </html>
