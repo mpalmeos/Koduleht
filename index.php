@@ -8,7 +8,7 @@
 	
 	<body>
 		<h1>Welcome to my homepage!</h1>
-		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/>
+		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/> <br/>
 		<div>
 		<a href="/~mpalmeos/Harjutus1">Praktikum 1</a> <br/>
 		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a>
