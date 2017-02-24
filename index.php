@@ -8,10 +8,10 @@
 	
 	<body>
 		<h1>Welcome to my homepage!</h1>
-		<img src="Kass.jpg" alt="Sorry, missed it" width="200" height="400"/>
+		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/>
 		<div>
-		<a href="/Harjutus1/praktikum1.html">Praktikum 1</a> <br/>
-		<a href="/Harjutus2/praktikum2.html">Praktikum 2</a>
+		<a href="/~mpalmeos/Harjutus1">Praktikum 1</a> <br/>
+		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a>
 		</div>
 		
 	<?php 
