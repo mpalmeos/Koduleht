@@ -13,7 +13,7 @@ body {
 	color: rgb(0,100,0);
 }
 
-a.loend {
+li.loend {
 	font-size: 16px;
 	text-decoration: none;
 	color: red;
