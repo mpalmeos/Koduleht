@@ -18,8 +18,8 @@ a.loend {
 	color: red;
 }
 
-menuu:hover {
-	background-color: black;
+a.loend:hover {
+	color: black;
 	font-size: 14px;
 }
 
