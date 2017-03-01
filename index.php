@@ -15,7 +15,8 @@
 		
 		<div class="must">
 		<a href="/~mpalmeos/Harjutus1">Praktikum 1</a> <br/>
-		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a>
+		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a> <br/>
+		<a href="/~mpalmeos/Harjutus3">Praktikum 3</a>
 		</div>
 		<br/>
 		<br/>
