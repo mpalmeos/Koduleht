@@ -14,13 +14,13 @@ body {
 
 a.loend {
 	font-size: 16px;
-	text-decoration: none;
+	text-decoration-line: none;
 	color: red;
 }
 
-a.loend: hover {
-	font-family: "Serif", Times New Roman;
-	color: yellow;
+menuu:hover {
+	background-color: black;
+	font-size: 14px;
 }
 
 img.pilt {

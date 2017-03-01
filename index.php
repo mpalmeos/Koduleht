@@ -21,7 +21,7 @@
 		<br/>
 		</div>
 		
-		<div class="must">
+		<div class="must" id="menuu">
 		<h1>2. Praktikumi ülesanded</h1>
 		<br/>
 		<iframe src="/~mpalmeos/Harjutus2/praktikum2.html" name="iraam" height="500" width="500">
