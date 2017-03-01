@@ -9,11 +9,11 @@ body {
 	font-family: monospace;
 }
 
-#Pealkiri {
+h1.must:hover {
 	color: rgb(0,100,0);
 }
 
-#Pealkiri: hover {
+a:hover {
 	color: red;	
 }
 
