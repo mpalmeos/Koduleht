@@ -7,7 +7,7 @@
 	</head>
 	
 	<body>
-		<div style="background: lightblue; text-align: justify;" id="pilt">
+		<div style="background: lightblue; text-align: justify;" class="pilt">
 		<div class="must">
 		<h1 id="Pealkiri">Welcome to my homepage!</h1>
 		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/> <br/>
