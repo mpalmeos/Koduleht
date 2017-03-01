@@ -7,6 +7,7 @@
 	</head>
 	
 	<body>
+		<div style="background: lightblue; text-align: justify;">
 		<div class="must">
 		<h1 id="Pealkiri">Welcome to my homepage!</h1>
 		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/> <br/>
@@ -18,6 +19,7 @@
 		</div>
 		<br/>
 		<br/>
+		</div>
 		
 		<div class="must">
 		<h1>2. Praktikumi ülesanded</h1>
