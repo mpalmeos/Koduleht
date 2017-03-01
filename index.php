@@ -7,10 +7,10 @@
 	</head>
 	
 	<body>
-		<div style="background: lightblue; text-align: justify;" class="pilt">
+		<div style="background: lightblue; text-align: justify;">
 		<div class="must">
 		<h1 id="Pealkiri">Welcome to my homepage!</h1>
-		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/> <br/>
+		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400" id="pilt"/> <br/>
 		</div>
 		
 		<div class="must">

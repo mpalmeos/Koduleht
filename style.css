@@ -15,16 +15,12 @@ body {
 
 a.loend {
 	font-size: 16px;
-	text-decoration-line: none;
+	text-decoration: none;
 	color: red;
+	cursor: crosshair;
 }
 
-a.loend: hover {
-	color: black;
-	font-size: 14px;
-}
-
-img.must {
+#pilt {
 	border: 10px solid purple;
 	cursor: wait;
 }
