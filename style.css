@@ -1,4 +1,8 @@
 body {
-	background-color: lightblue;
-	
+	background-image: url("taevas.jpeg");
+	background-repeat: no-repeat;
+}
+
+#Pealkiri {
+	color: rgb(0,100,0);
 }

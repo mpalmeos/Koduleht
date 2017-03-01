@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet type="text/css" href="style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<meta charset="utf-8">
 		<title>Koduleht</title>
 	</head>
 	
 	<body>
-		<h1>Welcome to my homepage!</h1>
+		<h1 id="Pealkiri">Welcome to my homepage!</h1>
 		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/> <br/>
 		
 		<div>
