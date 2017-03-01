@@ -6,6 +6,7 @@ body {
 
 .must {
 	background-color: white;
+	font-family: monospace;
 }
 
 #Pealkiri {
@@ -18,11 +19,12 @@ a.loend {
 	color: red;
 }
 
-a.loend:hover {
+a.loend: hover {
 	color: black;
 	font-size: 14px;
 }
 
-img.pilt {
+img.must {
 	border: 10px solid purple;
+	cursor: wait;
 }
