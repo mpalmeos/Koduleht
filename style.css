@@ -1,6 +1,11 @@
 body {
 	background-image: url("taevas.jpeg");
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.must {
+	background-color: black;
 }
 
 #Pealkiri {

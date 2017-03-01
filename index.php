@@ -7,17 +7,19 @@
 	</head>
 	
 	<body>
+		<div class="must">
 		<h1 id="Pealkiri">Welcome to my homepage!</h1>
 		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400"/> <br/>
+		</div>
 		
-		<div>
+		<div class="must">
 		<a href="/~mpalmeos/Harjutus1">Praktikum 1</a> <br/>
 		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a>
 		</div>
 		<br/>
 		<br/>
 		
-		<div>
+		<div class="must">
 		<h1>2. Praktikumi ülesanded</h1>
 		<br/>
 		<iframe src="/~mpalmeos/Harjutus2/praktikum2.html" name="iraam" height="500" width="500">
