@@ -27,7 +27,7 @@
 		<br/>
 		<iframe src="/~mpalmeos/Harjutus2/praktikum2.html" name="iraam" height="500" width="500">
 		</iframe> <br/><br/>
-		<ul class="loend">
+		<ul id="loend">
 		<li><a href="Harjutus2/harjutus1.html" target="iraam">Harjutus 1</a> </li>
 		<li><a href="Harjutus2/harjutus2.html" target="iraam">Harjutus 2</a></li>
 		<li><a href="Harjutus2/harjutus2-2.html" target="iraam">Harjutus 2, osa 2</a></li>
