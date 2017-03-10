@@ -12,16 +12,14 @@ body {
 h1.must:hover {
 	color: rgb(0,100,0);
 }
-a {
-	text-decoration: none;
-}
+
 a:hover {
 	color: red;	
 }
 
 #loend {
 	font-size: 16px;
-
+	text-decoration: none;
 	color: red;
 	cursor: crosshair;
 }
