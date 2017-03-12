@@ -5,6 +5,11 @@
 	border-radius: 50%;
 	box-shadow:0px -11px 23px -3px black inset;
 	margin-top: -25px;
+	float: left;
+}
+
+.rida .paremale {
+	float: right;
 }
 
 .rida {
@@ -12,6 +17,10 @@
 	height: 0px;
 	border: solid black 1px;
 	margin-top: 50px;
+}
+
+.rida:first-child {
+	margin-top: 25px;
 }
 
 #raam {
