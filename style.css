@@ -1,32 +1,7 @@
-body {
-	background-image: url("taevas.jpeg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-.must {
-	background-color: white;
-	font-family: monospace;
-}
-
-h1.must:hover {
-	color: rgb(0,100,0);
-}
-a {
-	text-decoration: none;
-}
-a:hover {
-	color: red;	
-}
-
-#loend {
-	font-size: 16px;
-
-	color: red;
-	cursor: crosshair;
-}
-
-#pilt {
-	border: 10px solid purple;
-	cursor: wait;
+#pealmine {
+	position: fixed;
+	height: 400 px;
+	width: 400 px;
+	top: 200 px;
+	left: 400 px;
 }

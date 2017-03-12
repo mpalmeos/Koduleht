@@ -7,33 +7,20 @@
 	</head>
 	
 	<body>
-		<div style="background: lightblue; text-align: justify;">
-		<div class="must">
-		<h1 id="Pealkiri">Welcome to my homepage!</h1>
-		<img src="Kass.jpg" alt="Sorry, missed it" width="300" height="400" id="pilt"/> <br/>
+	<div id="pealmine">
+		<div class="ring">	
+		<div class="ring">
+		<div class="ring">
+		<div class="ring">
+		<div class="ring">
+		<div class="ring">
 		</div>
-		
-		<div class="must">
-		<a href="/~mpalmeos/Harjutus1">Praktikum 1</a> <br/>
-		<a href="/~mpalmeos/Harjutus2">Praktikum 2</a> <br/>
-		<a href="/~mpalmeos/Harjutus3">Praktikum 3</a>
 		</div>
-		<br/>
-		<br/>
 		</div>
-		
-		<div class="must">
-		<h1>2. Praktikumi ülesanded</h1>
-		<br/>
-		<iframe src="/~mpalmeos/Harjutus2/praktikum2.html" name="iraam" height="500" width="500">
-		</iframe> <br/><br/>
-		<ul id="loend">
-		<li><a href="Harjutus2/harjutus1.html" target="iraam">Harjutus 1</a> </li>
-		<li><a href="Harjutus2/harjutus2.html" target="iraam">Harjutus 2</a></li>
-		<li><a href="Harjutus2/harjutus2-2.html" target="iraam">Harjutus 2, osa 2</a></li>
-		<li><a href="Harjutus2/praktikum2.html" target="iraam">Galerii ülesanne</a></li>
-		</ul>
 		</div>
+		</div>
+		</div>
+	</div>
 		
 	<?php 
 			echo phpversion(); 
