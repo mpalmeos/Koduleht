@@ -7,7 +7,9 @@
 	</head>
 	
 	<body>
-	<div id="pealmine">
+	
+	<div class="pealmine">
+	<img src="duck.png" alt="pildike"/>
 		<div class="ring">	
 		<div>
 		<div>
