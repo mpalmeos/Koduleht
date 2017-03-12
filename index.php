@@ -5,22 +5,15 @@
 		<meta charset="utf-8">
 		<title>Koduleht</title>
 	</head>
-	
 	<body>
-	<div class="ring">
-	<img src="duck.png" alt="pildike"/>
-		<div>	
-		<div>
-		<div>
-		<div>
-		<div>
-		<div>
-		</div>
-		</div>
-		</div>
-		</div>
-		</div>
-		</div>
+	<img id="doggy" src="duck.png" alt="pildike"/>
+	<div id="viimane">
+		<div class="ring"></div>
+		<div class="ring"></div>
+		<div class="ring"></div>
+		<div class="ring"></div>
+		<div class="ring"></div>
+		<div class="ring"></div>
 	</div>
 		
 	<?php 
