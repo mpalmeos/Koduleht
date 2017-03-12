@@ -9,11 +9,11 @@
 	<body>
 	<div id="pealmine">
 		<div class="ring">	
-		<div class="ring">
-		<div class="ring">
-		<div class="ring">
-		<div class="ring">
-		<div class="ring">
+		<div>
+		<div>
+		<div>
+		<div>
+		<div>
 		</div>
 		</div>
 		</div>
