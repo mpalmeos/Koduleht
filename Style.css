@@ -36,7 +36,6 @@ li a:hover {
 
 #HTML {
 	position: fixed;
-	float: left;
 	bottom: 0px;
 	left: 0px;
 }
@@ -45,5 +44,4 @@ li a:hover {
 	position: fixed;
 	float: right;
 	bottom: 0px;
-	left: 0px;
 }
