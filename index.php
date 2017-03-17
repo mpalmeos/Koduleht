@@ -10,13 +10,18 @@
 	<ul>
 		<li><a href="bullseye.html">Märklaua harjutus</a> </li>
 		<li><a href="abakus.html">Abakuse harjutus</a></li>
-		<li><a href="http://validator.w3.org/check?uri=referer">
-		<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
-		</a></li>
-		<li><a href="http://jigsaw.w3.org/css-validator/check/referer">
-		<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
-		</a></li>
 	</ul>
+	</div>
+	
+	<div id="HTML">
+		<a href="http://validator.w3.org/check?uri=referer">
+		<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+		</a>
+	</div>
+	<div id="CSS">
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
 	</div>
 		
 	<?php 

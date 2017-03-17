@@ -18,7 +18,6 @@ li a {
 
 li {
 	text-align: center;
-	border-bottom: 1px solid #555;
 }
 
 li:last-child {
@@ -33,4 +32,18 @@ li:last-child {
 li a:hover {
 	background-color: #555;
 	color: white;
+}
+
+#HTML {
+	position: fixed;
+	float: left;
+	bottom: 0px;
+	left: 0px;
+}
+
+#CSS {
+	position: fixed;
+	float: right;
+	bottom: 0px;
+	left: 0px;
 }
