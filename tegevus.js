@@ -1,13 +1,16 @@
+var parlid  = document.getElementsByClassName("parl");
 window.onload = function() {
-	var b = document.getElementsByClassName("parl");
+    for (var i = 0; i < parlid.length; i++) {
+		parlid[i].onclick = function() {
+			liigutaKuul(this);
+		}
+	}
 	
-    for (var i = 0; i < b.length; i++) {
-		b[i].onclick = function() {
-			if (window.getComputedStyle(b).getPropertyValue("float") == "left"){
-				b.style.cssFloat = "right";
-			} else {
-				b.style.cssFloat = "left";
-			}
+	function liigutaKuul(yks) {
+		if (window.getComputedStyle(yks).getPropertyValue("float") == "left") {
+			yks.style.cssFloat = "right";
+		} else {
+			yks.style.cssFloat = "left";
 		}
 	}
  }
