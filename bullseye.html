@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="tegevus.js"></script>
+		<script>
+		window.onload = function() {
+		var m = document.getElementById('viimane');
+		m.onclick = function() {
+		m.style.top = Math.random()*50 + "%";
+		m.style.left = Math.random()*50 + "%";
+			}
+		}
+		</script>
 		<link rel="stylesheet" type="text/css" href="marklaud.css"/>
 		<meta charset="utf-8">
 		<title>Koduleht</title>
