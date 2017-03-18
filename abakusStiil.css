@@ -28,3 +28,15 @@
 	padding-bottom: 100px;
 	margin-top: 0px;
 }
+
+#HTML {
+	position: fixed;
+	bottom: 0px;
+	float: left;
+}
+
+#CSS {
+	position: fixed;
+	left: 100px;
+	bottom: 0px;
+}
