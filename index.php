@@ -20,7 +20,7 @@
 	</div>
 	<div id="CSS">
 		<a href="http://jigsaw.w3.org/css-validator/check/referer">
-		<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" height="31" width="88" />
 		</a>
 	</div>
 		

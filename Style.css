@@ -42,6 +42,6 @@ li a:hover {
 
 #CSS {
 	position: fixed;
-	float: right;
+	left: 100px;
 	bottom: 0px;
 }
