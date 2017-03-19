@@ -2,16 +2,18 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<script src="applications.js"></script>
 		<link rel="stylesheet" type="text/css" href="Style.css"/>
 		<title>Koduleht</title>
 	</head>
 	<body>
+	
 	<div id="menu">
 	<ul>
 		<li><a href="bullseye.html">Märklaua harjutus</a> </li>
 		<li><a href="abakus.html">Abakuse harjutus</a></li>
 	</ul>
-	</div>
+	</div>	
 	
 	<div id="HTML">
 		<a href="http://validator.w3.org/check?uri=referer">
@@ -25,17 +27,16 @@
 	</div>
 		
 	<?php 
-			echo phpversion(); 
-			$host = "localhost";
-			$user = "test";
-			$pass = "t3st3r123";
-			$db = "test";
+		echo phpversion(); 
+		$host = "localhost";
+		$user = "test";
+		$pass = "t3st3r123";
+		$db = "test";
 
-			$l = mysqli_connect($host, $user, $pass, $db);
-			mysqli_query($l, "SET CHARACTER SET UTF8") or
-            		die("Error, ei saa andmebaasi charsetti seatud");
-    			
-   			 mysqli_close($l);			
-			?>
+		$l = mysqli_connect($host, $user, $pass, $db);
+		mysqli_query($l, "SET CHARACTER SET UTF8") or
+        	die("Error, ei saa andmebaasi charsetti seatud");
+    	mysqli_close($l);			
+	?>
 	</body>
 </html>
