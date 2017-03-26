@@ -1,8 +1,18 @@
+#title_banner {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: #f1f1f1;
+	height: 10%;
+	color: green;
+}
+
 ul {
 	list-style-type: none;
+	top: 60px;
 	margin: 0;
 	padding: 0;
-	width: 25%;
+	width: 20%;
 	background-color: #f1f1f1;
 	height: 100%;
 	position: fixed;

@@ -3,15 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<script src="applications.js"></script>
-		<link rel="stylesheet" type="text/css" href="Style.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/Style.css"/>
 		<title>Koduleht</title>
 	</head>
 	<body>
 	
+	<div id="title_banner"> 
+	BEADED BITE SHOP
+	</div>
+	
 	<div id="menu">
 	<ul>
-		<li><a href="bullseye.html">Märklaua harjutus</a> </li>
-		<li><a href="abakus.html">Abakuse harjutus</a></li>
+		<li><a href="HTML/bullseye.html">Märklaua harjutus</a> </li>
+		<li><a href="HTML/abakus.html">Abakuse harjutus</a></li>
+		<li><a href="HTML/jquery.html">jQuery harjutus</a></li>
 	</ul>
 	</div>	
 	
