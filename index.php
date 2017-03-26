@@ -9,7 +9,7 @@
 	<body>
 	
 	<div id="title_banner"> 
-	BEADED BITE SHOP
+	<div id="title_text">BEAD BITE SHOP</div>
 	</div>
 	
 	<div id="menu">
