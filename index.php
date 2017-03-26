@@ -9,7 +9,7 @@
 	<body>
 	
 	<div id="title_banner"> 
-	    <img src="http://gdurl.com/7Itq" alt="bites">
+	    <img src="http://gdurl.com/7Itq" alt="bites" width="1000" height="100">
 	    <div id="title_text">BEAD BYTE SHOP</div>
 	</div>
 	
