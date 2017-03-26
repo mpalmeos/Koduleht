@@ -9,7 +9,8 @@
 	<body>
 	
 	<div id="title_banner"> 
-	<div id="title_text">BEAD BITE SHOP</div>
+	    <img src="http://gdurl.com/7Itq" alt="bites" width="1000" height="300">
+	    <div id="title_text">BEAD BYTE SHOP</div>
 	</div>
 	
 	<div id="menu">
