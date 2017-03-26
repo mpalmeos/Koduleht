@@ -9,12 +9,12 @@
 	<body>
 	
 	<div id="title_banner"> 
-	    <img src="http://gdurl.com/7Itq" alt="bites" width="1000" height="100">
+	    <img id="benner" src="http://gdurl.com/7Itq" alt="bites" width="1000" height="100">
 	    <div id="title_text">BEAD BYTE SHOP</div>
 	</div>
 	
-	<div id="menu">
-	<ul>
+	<div>
+	<ul id="menu">
 		<li><a href="HTML/bullseye.html">Märklaua harjutus</a> </li>
 		<li><a href="HTML/abakus.html">Abakuse harjutus</a></li>
 		<li><a href="HTML/jquery.html">jQuery harjutus</a></li>

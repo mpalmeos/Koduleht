@@ -4,25 +4,25 @@
 	height: 10%;
 }
 
-img {
+#benner {
 	width: 100%;
-	height: auto;
 	z-index: -1;
+	opacity: 0.3;
 }
 
 #title_text {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 25%;
 	width: 100%;
 	text-align: center;
 	font-size: 50px;
-	color: white;
+	color: black;
 }
 
-ul {
+#menu {
 	list-style-type: none;
-	top: 100px;
+	top: auto;
 	margin: 0;
 	padding: 0;
 	width: 10%;
