@@ -15,7 +15,7 @@
 	function teisiti2($tekst) {
 		$vastus="";
 		for($i=strlen($tekst); $i>=0; $i=$i-1){
-			$vastus=$vastus.substr($tekst, 0, -i);
+			$vastus=$vastus.substr($tekst, 0, $i-strlen($tekst));
 		}
 		echo $vastus;
 	}
