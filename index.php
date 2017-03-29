@@ -18,6 +18,9 @@
 		<li><a href="HTML/bullseye.html">Märklaua harjutus</a> </li>
 		<li><a href="HTML/abakus.html">Abakuse harjutus</a></li>
 		<li><a href="HTML/jquery.html">jQuery harjutus</a></li>
+		<li><a href="PHP/phpyl1">PHP ülesanne 1</a></li>
+		<li><a href="PHP/phpyl1">PHP ülesanne 2</a></li>
+		<li><a href="PHP/phpyl1">PHP ülesanne 3</a></li>
 	</ul>
 	</div>	
 	
