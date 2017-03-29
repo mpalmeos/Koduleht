@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title> PHP kodune töö </title>
-<?php
+
+    <?php
 	function teisiti1($text){
 		$teisiti="";
 		for($i=strlen($text)-1; $i>=0; $i=$i-1){
@@ -14,12 +15,12 @@
 	
 	function teisiti2($tekst) {
 		$vastus="";
-		for($i=strlen($tekst); $i>=0; $i=$i-1){
-			$vastus=$vastus.substr($tekst, 0, $i-strlen($tekst));
+		for($i=strlen($tekst)-1; $i>=0; $i=$i-1){
+			$vastus=$vastus.substr($tekst, $i, 1);
 		}
 		echo $vastus;
 	}
-?>
+    ?>
 </head>
 <body>
 	<a href="/~mpalmeos/index.php">Tagasi pealehele</a> <br/> 
