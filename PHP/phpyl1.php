@@ -5,6 +5,7 @@
 	<title> PHP kodune töö </title>
 <?php
 	function teisiti1($text){
+		$teisiti="";
 		for($i=strlen($text)-1; $i>=0; $i=$i-1){
 			$teisiti = $teisiti.$text[$i];
 		}
@@ -12,7 +13,8 @@
 	}
 	
 	function teisiti2($tekst) {
-		for($i=strlen($tekst); i>=0; $i=$i-1){
+		$vastus="";
+		for($i=strlen($tekst); $i>=0; $i=$i-1){
 			$vastus=$vastus.substr($tekst, 0, -i);
 		}
 		echo $vastus;
