@@ -14,7 +14,7 @@ $helmed=array(
 );
 
 foreach($helmed as $ehe){
-	include "ehted.html";
+	include "/~mpalmeos/HTML/ehted.html";
 };
 ?>
 </body>
