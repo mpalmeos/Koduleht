@@ -21,6 +21,7 @@
 		<li><a href="PHP/phpyl1.php">PHP ülesanne 1</a></li>
 		<li><a href="PHP/phpyl2.php">PHP ülesanne 2</a></li>
 		<li><a href="PHP/phpyl3.php">PHP ülesanne 3</a></li>
+		<li><a href="HTML/ehted.html">WUT</a></li>
 	</ul>
 	</div>	
 	
