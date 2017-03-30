@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title> PHP kodune töö </title>
+    <head>
+	    <meta charset="utf-8">
+	    <title> PHP kodune töö </title>
 
     <?php
 	function teisiti1($text){
@@ -21,11 +21,10 @@
 		echo $vastus;
 	}
     ?>
-</head>
+    </head>
 <body>
 	<a href="/~mpalmeos/index.php">Tagasi pealehele</a> <br/> 
     <?php echo teisiti1("sõnakas"); ?> <br/>
 	<?php echo teisiti2("sõnasõda"); ?> <br/>
-	
 </body>	
 </html>
