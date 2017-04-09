@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<script src="applications.js"></script>
 		<link rel="stylesheet" type="text/css" href="CSS/Style.css"/>
 		<title>Koduleht</title>
@@ -15,7 +16,7 @@
 	
 	<div>
 	<ul id="menu">
-		<li><a href="HTML/bullseye.html">Märklaua harjutus</a> </li>
+		<li><a id="marklaud" href="HTML/bullseye.html">Märklaua harjutus</a> </li>
 		<li><a href="HTML/abakus.html">Abakuse harjutus</a></li>
 		<li><a href="HTML/jquery.html">jQuery harjutus</a></li>
 		<li><a href="PHP/phpyl1.php">PHP ülesanne 1</a></li>
@@ -25,6 +26,8 @@
 		<li><a href="PHP/too8-2.php">Serveri kaustatade ülesanne</a></li>
 	</ul>
 	</div>	
+	
+	<div id="content"></div>
 	
 	<div id="HTML">
 		<a href="http://validator.w3.org/check?uri=referer">
