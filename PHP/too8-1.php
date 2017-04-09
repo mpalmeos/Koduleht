@@ -1,7 +1,7 @@
 <?php
-$bg_col="green";
-if (isset($_POST['bgcolor']) && $_POST['bgcolor']!="") {
-    $bg_col=htmlspecialchars($_POST['bgcolor']);
+$bg_col="green"; //default värvus (roheline :))
+if (isset($_POST['bgcolor']) && $_POST['bgcolor']!="") { //Kontrollib, kas värvuse muutuja on olemas ja, et ta ei ole tühi
+    $bg_col=htmlspecialchars($_POST['bgcolor']); //eemaldab kõik märgid, tänu millele kood muutub HTML loetavaks
 }
 $text= "";
 if (isset($_POST['text']) && $_POST['text']!="") {
@@ -59,7 +59,6 @@ if (isset($_POST['lineradius']) && $_POST['lineradius']!="") {
     </style>
 </head>
 <body>
-
 <div id="text">
     <p><?php echo $text;?><p/>
 </div>
@@ -79,5 +78,6 @@ if (isset($_POST['lineradius']) && $_POST['lineradius']!="") {
 <p>
 <button type="submit">Esita</button></p>
 </form>
+<a href="/~mpalmeos/index.php">Tagasi pealehele</a>
 </body>
 </html>

@@ -22,6 +22,7 @@
 		<li><a href="PHP/phpyl2.php">PHP ülesanne 2</a></li>
 		<li><a href="PHP/phpyl3.php">PHP ülesanne 3</a></li>
 		<li><a href="PHP/too8-1.php">Tekstitöötluse ülesanne</a></li>
+		<li><a href="PHP/too8-2.php">Serveri kaustatade ülesanne</a></li>
 	</ul>
 	</div>	
 	
