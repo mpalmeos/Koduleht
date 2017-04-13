@@ -27,5 +27,5 @@ switch ($page) {
 	    require('pealeht.html');
 		break;
 }
-require_once('foot.html');
+require_once('footer.html');
 ?>

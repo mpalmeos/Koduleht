@@ -1,5 +1,11 @@
 <div id="wrap">
 	<h3>Valiku tulemus</h3>
-	<p>Siia tuleb valiku tulemus, mida saab kuvada ainult PHP abil :)</p>
+	<?php
+	if (empty($_POST)){
+	echo "<p>Tee ikka valik ka!<p>"
+	}else {
+	echo "Valisid pildi nr " . $_POST["pilt"] . "!";
+	}
+	?>
 
 </div>
