@@ -1,4 +1,12 @@
-<?php require_once('head.html');?>
+<?php require_once('head.html');
+$pildid = array(
+    "pildid/nameless1",
+	"pildid/nameless2",
+	"pildid/nameless3",
+	"pildid/nameless4",
+	"pildid/nameless5",
+	"pildid/nameless6",);
+?>
 
 <div id="wrap">
 	<h3>Vali oma lemmik :)</h3>
