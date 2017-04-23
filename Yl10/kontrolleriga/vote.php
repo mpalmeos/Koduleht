@@ -1,8 +1,6 @@
 <?php
 if (isset($_SESSION['vote_for'])){
-
-
-	 include("tulemus.php");
+	include("tulemus.php");
 	 
  } else {?>
 
