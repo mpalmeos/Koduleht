@@ -28,7 +28,7 @@ switch ($page) {
 	        $id=false;
 			if(isset($_POST['pilt']) && isset($pildid[$_POST['pilt']]))
 				$id=htmlspecialchars($_POST['pilt']);
-	        include("tulemus.php");
+	        include("tulemus.html");
 		break;
 	default:
 	    include('pealeht.php');
