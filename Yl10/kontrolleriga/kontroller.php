@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once('head.html');
+require_once("head.html");
 
 $pildid = array(
     1=>array('src'=>"pildid/nameless1.jpg", 'alt'=>"nimetu 1"),
@@ -19,17 +19,20 @@ if (isset($_GET['page']) && $_GET['page']!=""){
 
 switch ($page) {
 	case "galerii":
-	        include('galerii.php');
+	        include("galerii.php");
 		break;
 	case "vote":
-	        include('vote.php');
+	        include("vote.php");
 		break;
 	case "tulemus":
-	        include('tulemus.php');
+	        $id=false;
+			if(isset($_POST['pilt']) && isset($pildid[$_POST['pilt']]))
+				$id=htmlspecialchars($_POST['pilt']);
+	        include("tulemus.php");
 		break;
 	default:
 	    include('pealeht.php');
 		break;
 }
-require_once('footer.html');
+require_once("footer.html");
 ?>
