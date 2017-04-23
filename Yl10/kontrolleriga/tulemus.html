@@ -1,19 +1,15 @@
-<?php if(isset($_SESSION['vote_for'] )){ ?>
-	<h3>Vajuta "Tagasi valimiseks", kui tahad uut pilti valida</h3>
-	<p>Sinu valik on järgmine: <br/>
-	    <img src="<?php echo $pildid[$_SESSION['vote_for']]['src'];?>" alt="valitud"/></p>
-			 
-<?php } else{
-    echo 'Valisid juba pildi No. '.$_SESSION['vote_for'].'.';
-} ?>
-<?php if($_SESSION['vote_for'] == $_POST['pilt']){ ?>
-<form method="POST" action="?page=tulemus">
-    <input type="submit" name="delete" value="Muuda valik">	
-</form>
-<?php	} ?>
-
-<?php if(isset($_POST['delete'] )){
-	$_SESSION = array(); 
-	
-	echo '<a href="?page=vote">Tagasi valima</a>';}
-?> 
+<?php
+if(!empty($_POST)){
+	if(!isset($_SESSION['voted_for'])){
+		$_SESSION['voted_for']=$_POST['pilt'];
+		echo 'Andsid oma hääle pildile nr. '.$_POST['pilt'].'.';
+	}
+	else {
+		echo 'Valisid juba juba pildi nr.'.$_SESSION['voted_for'] '. Mitu pilti ei saa valida!';
+	}
+} else {
+	if(isset($_SESSION['voted_for'])){
+		echo 'Hääletasid juba pildi nr. '.$_SESSION['voted_for'].' poolt';
+	}
+}
+?>
