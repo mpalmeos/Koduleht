@@ -1,5 +1,3 @@
-<?php require_once('head.html');?>
-
 <?php if (isset($_SESSION['vote_for'] )){ ?>
 	<h3>Vajuta "Tagasi valimiseks", kui tahad uut pilti valida</h3>
 	<p>Sinu valik on järgmine: <br/>
@@ -22,5 +20,3 @@
 	
 	echo '<a href="?page=vote">Tagasi valima</a>';
 } ?> 
-
-<?php require_once('footer.html');?>

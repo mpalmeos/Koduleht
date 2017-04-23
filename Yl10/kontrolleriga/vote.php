@@ -1,13 +1,3 @@
-<?php require_once('head.html');
-$pildid = array(
-    "pildid/nameless1",
-	"pildid/nameless2",
-	"pildid/nameless3",
-	"pildid/nameless4",
-	"pildid/nameless5",
-	"pildid/nameless6",);
-?>
-
 <?php
 if (isset($_SESSION['vote_for'])){
 
@@ -30,4 +20,3 @@ if (isset($_SESSION['vote_for'])){
 	<input type="submit" value="Valin!"/>
 </form>
 <?php }; ?>
-<?php require_once('footer.html');?>
