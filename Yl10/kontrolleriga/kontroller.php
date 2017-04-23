@@ -17,22 +17,33 @@ if (isset($_GET['page']) && $_GET['page']!=""){
 	$page = htmlspecialchars($_GET['page']);
 }
 
-switch ($page) {
+switch($page){
 	case "galerii":
-	        include("galerii.php");
-		break;
-	case "vote":
-	        include("vote.php");
-		break;
+		include("galerii.php");
+	break;
+    case "vote":
+        if(!isset($_SESSION['voted_for'])){
+            include ("vote.php");
+        } else {
+            include ("tulemus.html");
+        }
+        break;
+    case "endSession":
+        $_SESSION = array();
+        if (isset($_COOKIE[session_name()])) {
+            setcookie(session_name(), '', time()-42000, '/');
+        }
+        session_destroy();
+        include ("pealeht.html");
 	case "tulemus":
-	        $id=false;
-			if(isset($_POST['pilt']) && isset($pildid[$_POST['pilt']]))
-				$id=htmlspecialchars($_POST['pilt']);
-	        include("tulemus.html");
-		break;
+		$id=false;
+		if (isset($_POST['pilt']) && isset($pildid[$_POST['pilt']]))
+			$id=htmlspecialchars($_POST['pilt']);
+		include("tulemus.html");
+	break;
 	default:
-	    include('pealeht.php');
-		break;
+	include('pealeht.html');
 }
+
 require_once("footer.html");
 ?>

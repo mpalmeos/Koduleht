@@ -1,9 +1,3 @@
-<?php
-if (isset($_SESSION['vote_for'])){
-	include("tulemus.php");
-	 
- } else {?>
-
 <h3>Vali oma lemmik!</h3>
 <form action="?page=tulemus" method="POST">
 	<?php foreach($pildid as $id=>$pilt):?>
@@ -17,4 +11,3 @@ if (isset($_SESSION['vote_for'])){
 	<br/>
 	<input type="submit" value="Valin!"/>
 </form>
-<?php }; ?>
