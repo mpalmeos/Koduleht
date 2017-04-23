@@ -34,7 +34,7 @@ switch($page){
             setcookie(session_name(), '', time()-42000, '/');
         }
         session_destroy();
-        include ("pealeht.html");
+        include ("pealeht.php");
 	case "tulemus":
 		$id=false;
 		if (isset($_POST['pilt']) && isset($pildid[$_POST['pilt']]))
@@ -42,7 +42,7 @@ switch($page){
 		include("tulemus.html");
 	break;
 	default:
-	include('pealeht.html');
+	include('pealeht.php');
 }
 
 require_once("footer.html");
