@@ -14,7 +14,7 @@ $pildid = array(
 
 $page="pealeht";
 if (isset($_GET['page']) && $_GET['page']!=""){
-	$page = htmlspecialchars($GET_['page']);
+	$page = htmlspecialchars($_GET['page']);
 }
 
 switch ($page) {
