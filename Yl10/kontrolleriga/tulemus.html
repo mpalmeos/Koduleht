@@ -5,7 +5,7 @@ if(!empty($_POST)){
 		echo 'Andsid oma hääle pildile nr. '.$_POST['pilt'].'.';
 	}
 	else {
-		echo 'Valisid juba juba pildi nr.'/.$_SESSION['voted_for'] /'. Mitu pilti ei saa valida!';
+		echo 'Valisid juba juba pildi nr'/.$_SESSION['voted_for'] /' - mitu pilti ei saa valida!';
 	}
 } else {
 	if(isset($_SESSION['voted_for'])){
