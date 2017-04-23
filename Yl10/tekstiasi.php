@@ -10,19 +10,19 @@ if (isset($_POST['bgVarv']) && $_POST['bgVarv']!="") {
     $bgVarv=htmlspecialchars($_POST['bgVarv']);
 }
 if (isset($_POST['textVarv']) && $_POST['textVarv']!="") {
-    $text=htmlspecialchars($_POST['textVarv']);
+    $textVarv=htmlspecialchars($_POST['textVarv']);
 }
 if (isset($_POST['borderVarv']) && $_POST['borderVarv']!="") {
-    $text_col=htmlspecialchars($_POST['borderVarv']);
+    $borderVarv=htmlspecialchars($_POST['borderVarv']);
 }
 if (isset($_POST['borderLai']) && $_POST['borderLai']!="") {
-    $li_col=htmlspecialchars($_POST['borderLai']);
+    $borderLai=htmlspecialchars($_POST['borderLai']);
 }
 if (isset($_POST['borderStiil']) && $_POST['borderStiil']!="") {
-    $li_width=htmlspecialchars($_POST['borderStiil']);
+    $borderStiil=htmlspecialchars($_POST['borderStiil']);
 }
 if (isset($_POST['borderRadius']) && $_POST['borderRadius']!="") {
-    $li_style=htmlspecialchars($_POST['borderRadius']);
+    $borderRadius=htmlspecialchars($_POST['borderRadius']);
 }
 
 ?>
