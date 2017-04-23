@@ -32,6 +32,12 @@
 	overflow: auto;
 }
 
+#content {
+	border: solid 5 px red;
+	position: fixed;
+	left: 15%;
+}
+
 li a {
 	display: block;
 	color: #000;
