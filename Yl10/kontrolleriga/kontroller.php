@@ -22,7 +22,7 @@ switch($page){
 		include("galerii.php");
 	break;
     case "vote":
-        if(!isset($_SESSION['voted_for'])){
+        if(!isset($_SESSION['vote_for'])){
             include ("vote.php");
         } else {
             include ("tulemus.html");
