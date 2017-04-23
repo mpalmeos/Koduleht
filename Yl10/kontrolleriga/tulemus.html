@@ -8,11 +8,11 @@
 	<p>Sinu valik on järgmine: <br/>
 	<img src="<?php echo $pildid[$_SESSION['vote_for']]['src'];?>" alt="valitud"/></p>
 <?php	} ?>
-
-<form method="post" action="?page=tulemus">
+<?php if ($_SESSION['vote_for'] == $_POST['pilt']){ ?>
+<form method="POST" action="?page=tulemus">
     <input type="submit" name="delete" value="Muuda valik">	
 </form>
-
+<?php	} ?>
 
 <?php if (isset($_POST['delete'] )){
 	$_SESSION = array(); 
