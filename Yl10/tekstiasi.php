@@ -66,7 +66,7 @@ if (isset($_POST['borderRadius']) && $_POST['borderRadius']!="") {
 		}
 	?>
 </div>
-<form action="tesktiasi.php" method="POST">
+<form action="tekstiasi.php" method="POST">
     <textarea id="text" name="inputText" placeholder="Kirjuta siia midagi..." ><?php if(!empty($_POST["inputText"]))
         echo htmlspecialchars($_POST["inputText"]);?></textarea><br>
     <input type="color" name="bgVarv" value="<?php if(!empty($_POST["bgVarv"]))

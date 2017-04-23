@@ -1,5 +1,4 @@
 <?php require_once('View/pealdis.html');?>
-<?php require_once('View/valik_menuu.html');?>
 
 <div id="content">
     <h1> Tere tulemast minu poodi! </h1>
