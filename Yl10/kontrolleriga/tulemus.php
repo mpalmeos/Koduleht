@@ -8,7 +8,7 @@
 	<p>Sinu valik on järgmine: <br/>
 	<img src="<?php echo $pildid[$_SESSION['vote_for']]['src'];?>" alt="valitud"/></p>
 <?php	} ?>
-<?php if ($_SESSION['vote_for'] = $_POST['pilt']){ ?>
+<?php if ($_SESSION['vote_for'] = $_POST['$pilt']){ ?>
 <form method="post" action="?page=tulemus">
 
 	<input type="submit" name="delete" value="Muuda valik">	
