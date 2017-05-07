@@ -26,7 +26,7 @@ function logout(){
 function kuva_puurid(){
 	
 	global $connection;
-	$sql=mysqli_query($connection, "select distinct(puur) as puur from loomaaed_mpalmeos order by puur asc"
+	$sql=mysqli_query($connection, "select distinct(puur) as puur from loomaaed_mpalmeos order by puur asc");
     $puurid=array();
 	while ($puur=mysqli_fetch_assoc($sql)){
 	    $loom=mysqli_query($connection, "SELECT * FROM loomaaed_mpalmeos WHERE puur=".mysqli_real_escape_string($connection, $puur['puur']));
