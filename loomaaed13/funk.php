@@ -32,14 +32,14 @@ function kuva_puurid(){
 function logi(){
 	global $connection;
 	if(!empty($_SESSION["user"])){
-		header("Location: ?page=loomad"):
+		header("Location: ?page=loomad");
 	} else {
 		$errors = array();
 		if($_SERVER['REQUEST_METHOD'] == 'POST'){
 			if($_POST["user"] != "" && $_POST["pass"] != "") {
 				$u = mysqli_real_escape_string($connection, $_POST["user"]);
 				$p = mysqli_real_escape_string($connection, $_POST["pass"]);
-				$sql = "SELECT id FROM mpalmeos_kylastajad WHERE username = '$u' AND passw = SHA1('$p')":
+				$sql = "SELECT id FROM mpalmeos_kylastajad WHERE username = '$u' AND passw = SHA1('$p')";
 				$result=mysqli_query($connection, $sql);
 				if(mysqli_num_rows($result)){
 					$_SESSION["user"] = $_POST["user"];
@@ -48,7 +48,7 @@ function logi(){
 					$errors[]= "Vale kasutajanimi või parool!";
 				}
 			} else {
-				$errors[]="Kasutajanimi või parool puudu!"
+				$errors[]="Kasutajanimi või parool puudu!";
 			}
 		}
 	}
