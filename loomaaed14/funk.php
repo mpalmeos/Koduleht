@@ -41,8 +41,11 @@ function logi(){
 				$p = mysqli_real_escape_string($connection, $_POST["pass"]);
 				$sql = "SELECT id FROM mpalmeos_kylastajad WHERE username = '$u' AND passw = SHA1('$p')";
 				$result=mysqli_query($connection, $sql);
-				if(mysqli_num_rows($result)){
+				if(mysqli_num_rows($result)>0){
 					$_SESSION["user"] = $_POST["user"];
+					$data=mysqli_fetch_assoc($result);
+					$roll=$data['roll'];
+					$_SESSION['roll']=$roll;
 					header("Location: ?page=loomad");
 				} else {
 					$errors[]= "Vale kasutajanimi või parool!";
@@ -64,7 +67,7 @@ function logout(){
 
 function lisa(){
 	global $connection;
-	if(empty($_SESSION["user"])){
+	if(empty($_SESSION["user"]) || $_SESSION['roll']!='admin'){
 		header("Location: ?page=login");
 	} else {
 		if($_SERVER['REQUEST_METHOD'] == 'POST'){
