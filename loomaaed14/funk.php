@@ -1,6 +1,5 @@
 <?php
 
-
 function connect_db(){
 	global $connection;
 	$host="localhost";
