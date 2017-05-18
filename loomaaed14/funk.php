@@ -136,12 +136,12 @@ function hangi_loom($id){
 }
 
 function muuda(){
-	global $connection;
-	if (empty($_SESSION['user']) || $_SESSION['roll']!='admin'){
-		header("Location: ?page=login");
-	}
-	if (empty($_POST['id']) && empty($_GET['id'])){
-        header ("Location: ?page=loomad");
+    global $connection;
+    if (empty($_SESSION['user']) || $_SESSION['roll']!='admin'){
+        header("Location: loomaaed.php?page=login");
+    }
+    if (empty($_POST['id']) && empty($_GET['id'])){
+        header ("Location: loomaaed.php?page=loomad");
     }
     if ($_SERVER['REQUEST_METHOD']==='POST'){
         $id = $_POST['id'];
