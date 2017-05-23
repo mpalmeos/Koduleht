@@ -11,19 +11,10 @@ if (isset($_GET['page']) && $_GET['page']!=""){
 include_once('View/pealdis.html');
 
 switch($page){
-	case "ehted":
-		ehte_galerii();
+	case "eyes":
+		include_once(View/eyes.html);
 	break;
-	case "mang":
-		sipelgad();
-	break;
-	case "logout":
-		logout();
-	break;
-	case "login":
-		login();
-	break;
-	case "lisa":
+	case "message":
 		lisa_kommentaar();
 	break;
 	default:
