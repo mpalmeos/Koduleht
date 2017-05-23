@@ -1,24 +1,22 @@
 // If you use this code, please link to this pen (cdpn.io/CBwhg). Thanks :)
 
 var DrawEye = function(eyecontainer, pupil, eyeposx, eyeposy, eyer) {
-  $("#monstereyes").append(
-    "<div id='" + eyecontainer + "'><div id='" + pupil + "'></div></div>"
-  );
+  $("#monstereyes").append("<div id='" + eyecontainer + "'><div id='" + pupil + "'></div></div>");
 
-  eyecontainer = "#" + eyecontainer;
-  pupil = "#" + pupil;
+   eyecontainer = "#" + eyecontainer;
+   pupil = "#" + pupil;
 
   $(eyecontainer).css({ left: eyeposx, top: eyeposy });
   $(pupil).css({ width: eyer * 0.4, height: eyer * 0.4 });
   $(eyecontainer).css({ width: eyer, height: eyer });
   $(pupil).css({
     position: "relative",
-    background: "#000000",
+    background-color: "#000000",
     "border-radius": "50%"
   });
   $(eyecontainer).css({
     position: "absolute",
-    background: "#FFFFFF",
+    background-color: "#FFFFFF",
     overflow: "hidden",
     "border-radius": "50%"
   });
