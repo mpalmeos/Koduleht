@@ -2,22 +2,25 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="Model/Style.css"/>
+	<script src="Model/DeathClock.js"></script>
+	<script>
+	    var TheEnd = new Date('05/29/2017 11:59 PM');
+		var timer = setInterval(function(){showRemaining(TheEnd, "countdown", timer);}, 1000);
+	</script> 
 	<title>Koduleht</title>
 </head>
 <body>
 	
 <div id="title_banner"> 
-	<img id="benner" src="http://gdurl.com/7Itq" alt="bites" width="1000" height="100">
+	<img id="benner" src="http://gdurl.com/7Itq" alt="bites" width="100%" height="100">
 	<div id="title_text">BEAD BYTE SHOP</div>
 </div>
 
 <ul id="menu">
-    <li><a href="View">Ehete galerii</a></li>
-	<li><a href="View">Ostukorv</a></li>
-	<li><a href="View">Login</a></li>
-	<li><a href="Yl9/kontroller.php">Galerii ülesanne</a> </li>
-	<li><a href="Yl10/tekstiasi.php">Sessioonide ülesanne 1</a></li>
-	<li><a href="Yl10/kontrolleriga/kontroller.php">Sessioonide ülesanne 2</a></li>
+    <li><a href="View">Avaleht</a></li>
+	<li><a href="View">Eyes</a></li>
+	<li><a href="View">Teadete tahvel</a></li>
 </ul>
+
+<div id="content">
