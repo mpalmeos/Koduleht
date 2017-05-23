@@ -12,7 +12,7 @@ include_once('View/pealdis.html');
 
 switch($page){
 	case "eyes":
-		include_once(View/eyes.html);
+		include_once('View/eyes.html');
 	break;
 	case "message":
 		lisa_kommentaar();
