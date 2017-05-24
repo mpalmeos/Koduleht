@@ -1,7 +1,7 @@
 <?php
 require_once('kontrollija.php');
-session_start();
-connect_db();
+//session_start();
+//connect_db();
 
 $page="pealeht";
 if (isset($_GET['page']) && $_GET['page']!=""){
@@ -11,8 +11,8 @@ if (isset($_GET['page']) && $_GET['page']!=""){
 include_once('View/pealdis.html');
 
 switch($page){
-	case "eyes":
-		include_once('View/eyes.html');
+	case "galerii":
+		include_once('View/galerii.html');
 	break;
 	case "message":
 		lisa_kommentaar();
