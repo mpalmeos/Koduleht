@@ -12,7 +12,7 @@ include_once('View/pealdis.html');
 
 switch($page){
 	case "galerii":
-		include_once('View/galerii.html');
+		include_once('View/galerii.php');
 	break;
 	case "message":
 		lisa_kommentaar();
