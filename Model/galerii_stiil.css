@@ -44,6 +44,12 @@
     animation-duration: 0.6s;
 }
 
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
 .close {
     position: absolute;
     top: 15px;
