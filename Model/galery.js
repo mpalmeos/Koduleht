@@ -1,15 +1,13 @@
-var modal = document.getElementById('myModal');
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
+$(document).ready(function(){
 
-var span = document.getElementsByClassName("close")[0];
+	$('.pic a').lightBox({
+	// we call the lightbox method, and convert all the hyperlinks in the .pic container into a lightbox gallery
 
-span.onclick = function() {
-  modal.style.display = "none";
-} 
+		imageLoading: 'lightbox/images/loading.gif',
+		imageBtnClose: 'lightbox/images/close.gif',
+		imageBtnPrev: 'lightbox/images/prev.gif',
+		imageBtnNext: 'lightbox/images/next.gif'
+
+	});
+
+});
