@@ -12,7 +12,6 @@ function connect_db(){
 
 function register(){
     global $connection;
-    
     if ($_SERVER['REQUEST_METHOD']=='POST'){
         if (empty($_POST['user'])){
             $errors[] = "Palun sisesta kasutajanimi";
@@ -49,7 +48,11 @@ function register(){
 
 function login(){
     global $connection;
-    if ($_SERVER['REQUEST_METHOD'] === 'POST'){
+	if(!empty($_SESSION["user"])){
+		header("Location: ?page=message");
+	} else {
+		$errors=array();
+        if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         if (empty($_POST['user'])){
             $errors[] = "Palun sisesta kasutajanimi";
         } else if (empty($_POST['pass'])){
@@ -76,6 +79,9 @@ function logout(){
 }
 function lisa(){
     global $connection;
+	if(empty($_SESSION["user"])){
+		header("Location: ?page=login");
+	} else {
     if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         if (empty($_POST['sonum'])){
             $error = "Palun sisesta oma sõnum";
@@ -88,7 +94,6 @@ function lisa(){
             header("Location: ?page=message");
         }
     }
-    
     include_once('View/teateLisamine.html');
 }
 function naita(){
