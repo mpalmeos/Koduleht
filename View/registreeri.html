@@ -1,0 +1,24 @@
+<?php
+    if (isset($errors)):
+        foreach($errors as $error): ?>
+            <p class="error"><?php echo $error; ?> </p>
+<?php endforeach;
+endif; ?>
+
+<form id="register" action="?page=rega" method="POST">
+    *Kirjuta kasutajanimi: <br>
+    <input type="text" name="user" value=""><br>
+    *Parool: <br>
+    <input type="password" name="pass"><br>
+    *Korda parooli: <br>
+    <input type="password" name="pass2" onblur="validatePass()"> <span id="wrongpass" class="error"></span>
+    <br>
+    *E-mail: <br>
+    <input type="text" name="email" onblur="validateEmail()">
+    <span id="wrongemail" class="error"></span>
+    <br>
+    *Kumb meeldib rohkem? <br>
+    <input type="radio" name="loom" value="kass">Kassid<br>
+    <input type="radio" name="loom" value="koer">Koerad<br>
+    <input type="submit" value="Registreeri">
+</form>

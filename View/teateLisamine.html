@@ -1,0 +1,11 @@
+<?php if (isset($error)): ?>
+     <p class="error"><?php echo $error; ?> </p>
+<?php endif ?>
+
+<form id="add" action="?page=lisa" method="POST">
+    Pealkiri: <br>
+    <input size="60" type="text" name="title"> <br><br>
+    Sõnum: <br>
+    <textarea rows="20" cols="50" name="sonum"></textarea><br>
+    <input type="submit" value="Lisa">
+</form>

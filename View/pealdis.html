@@ -3,9 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Model/Style.css"/>
-	<link rel="stylesheet" type="text/css" href="Model/galerii_stiil.css"/>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="Model/DeathClock.js"></script>
+	<script type="text/javascript" src="Model/valideerija.js"></script>
 	<script>
 	    var TheEnd = new Date('06/04/2017 11:00 AM');
 		var timer = setInterval(function(){showRemaining(TheEnd, "countdown", timer);}, 1000);
@@ -16,13 +15,16 @@
 	
 <div id="title_banner"> 
 	<img id="benner" src="http://gdurl.com/7Itq" alt="bites" style="width:100%; height:100px;">
-	<div id="title_text">BEAD BYTE SHOP</div>
+	<div id="title_text">BEAD BYTES</div>
 </div>
 
 <ul id="menu">
     <li><a href="?">Avaleht</a></li>
-	<li><a href="?page=galerii">Galerii</a></li>
 	<li><a href="?page=message">Teadete tahvel</a></li>
+	<li><a href="?page=lisa">Lisa teade</a></li>
+	<li><a href="?page=login">Logi sisse</a></li>
+	<li><a href="?page=logout">Logi välja</a></li>
+	<li><a href="?page=rega">Registreeru kasutajaks</a></li>
 </ul>
 
 <div id="content">
