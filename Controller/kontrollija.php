@@ -72,11 +72,14 @@ function login(){
         }
     }
     include_once('View/login.html');
+  }
 }
+
 function logout(){
     session_destroy();
     header("Location: ?");
 }
+
 function lisa(){
     global $connection;
 	if(empty($_SESSION["user"])){
@@ -95,7 +98,9 @@ function lisa(){
         }
     }
     include_once('View/teateLisamine.html');
+  }
 }
+
 function naita(){
     global $connection;
     $sql = "SELECT mpalmeos_messages.title,
@@ -105,9 +110,7 @@ function naita(){
         FROM mpalmeos_messages, mpalmeos_kasutajad
         WHERE mpalmeos_messages.user = mpalmeos_kasutajad.id
         ORDER BY mpalmeos_messages.sonum DESC";
-    $sonumid = mysqli_query($connection, $sql) or die ($sql . " - " . mysqli_error($connection));
-    
-            
+    $sonumid = mysqli_query($connection, $sql) or die ($sql . " - " . mysqli_error($connection)); 
     include_once('View/teated.html');
 }
 ?>
