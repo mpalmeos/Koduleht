@@ -64,7 +64,7 @@ function login(){
                 $_SESSION['user'] = $data['id'];
                 header("Location: ?");
             } else {
-                $errors[] = "Vale kasutajanimi või parool";
+                $errors[] = "Vale kasutajanimi või parool!";
             }
         }
     }
@@ -89,18 +89,17 @@ function lisa(){
         }
     }
     
-    include_once('Views/teateLisamine.html');
+    include_once('View/teateLisamine.html');
 }
 function naita(){
     global $connection;
     $sql = "SELECT mpalmeos_messages.title,
         mpalmeos_messages.sonum, 
-        mpalmeos_messages.time,
         mpalmeos_kasutajad.user,
         mpalmeos_kasutajad.loom
         FROM mpalmeos_messages, mpalmeos_kasutajad
         WHERE mpalmeos_messages.user = mpalmeos_kasutajad.id
-        ORDER BY mpalmeos_messages.time DESC";
+        ORDER BY mpalmeos_messages.sonum DESC";
     $sonumid = mysqli_query($connection, $sql) or die ($sql . " - " . mysqli_error($connection));
     
             
