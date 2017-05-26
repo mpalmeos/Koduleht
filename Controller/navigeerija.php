@@ -7,8 +7,12 @@ $page="pealeht";
 if (isset($_GET['page']) && $_GET['page']!=""){
 	$page=htmlspecialchars($_GET['page']);
 }
+if(!empty($_SESSION["user"])){
+    include_once('View/pealdis1.html');
+} else {
+	include_once('View/pealdis2.html');
+}
 
-include_once('View/pealdis.html');
 
 switch($page){
 	case "rega":
