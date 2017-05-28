@@ -13,7 +13,6 @@ if(!empty($_SESSION["user"])){
 	include_once('View/pealdis2.html');
 }
 
-
 switch($page){
 	case "rega":
 		register();
