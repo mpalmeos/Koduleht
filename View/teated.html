@@ -1,15 +1,19 @@
 <?php 
 while($p = mysqli_fetch_assoc($sonumid)): ?>
 
-<div class="message"> 
-<h2><?php echo $p['title'] ?></h2>
-<pre><?php echo $p['sonum'] ?></pre>
-<span class="userinfo">
-	<?php echo $p['user'];
-    if (!empty($p['loom'])){
-        echo (", " . $p['loom']);
-    }?>
-    </span>
+<div class="message">
+    <table>
+	    <tr>
+		    <td><h2><?php echo $p['title'] ?></h2></td>
+		</tr>
+		<tr>
+		    <td><span class="userinfo">
+	        <?php echo $p['user'];
+            if (!empty($p['loom'])){
+            echo ("<br/> " . $p['loom']);}?></span></td>
+	        <td><p><?php echo $p['sonum'] ?></p></td>
+		</tr>
+    </table>
 </div>
 
 <?php endwhile; ?>
