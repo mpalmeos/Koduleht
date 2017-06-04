@@ -27,9 +27,12 @@ $aegub = 60*60*24*60 + time(); //Küpsis aegub 2 kuu pärast
 setcookie('viimati', date("G:i - m/d/y"), $aegub);
 if(isset($_COOKIE['viimati'])){
 	$aeg=$_COOKIE['viimati'];
-	echo "<h1>Viimati külastati lehte: ". $aeg . "</h1> <br/> 
-	Oled külastaja nr " . $lugeja ."<br/>
-	Viimati külastati lehte " . $file2-time(). "sekundit tagasi.";
-}?>
+	
+	echo "<h1>Viimati külastati lehte: ". $aeg . "</h1>"; 
+}
+
+	echo "Oled külastaja nr " . $lugeja ."<br/>";
+	echo "Viimati külastati lehte " . $file2-time(). "sekundit tagasi.";
+?>
 	</body>
 </html>
