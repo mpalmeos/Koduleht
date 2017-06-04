@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html>
     <head>
 	<meta charset="utf-8"/>
@@ -28,8 +27,7 @@ $aegub = 60*60*24*60 + time(); //Küpsis aegub 2 kuu pärast
 setcookie('viimati', date("G:i - m/d/y"), $aegub);
 if(isset($_COOKIE['viimati'])){
 	$aeg=$_COOKIE['viimati'];
-	echo "<h1>Viimati külastati lehte: ". $aeg . "</h1>"
-}
-?>
+	echo "<h1>Viimati külastati lehte: ". $aeg . "</h1>";
+}?>
 	</body>
 </html>
