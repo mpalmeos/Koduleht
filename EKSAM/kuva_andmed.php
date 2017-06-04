@@ -28,7 +28,7 @@ fwrite($file, "".time()."");
 fclose($file);
 
 $file2=file_get_contents("$viimane_aeg");
-$file2=(int)$file2;
+$file3=(int)$file2;
 
 require("pealeht.php");
 

@@ -28,11 +28,13 @@ setcookie('viimati', date("G:i - m/d/y"), $aegub);
 if(isset($_COOKIE['viimati'])){
 	$aeg=$_COOKIE['viimati'];
 	
-	echo "<h1>Viimati külastati lehte: ". $aeg . "</h1>"; 
+	echo "<h1>Viimati külastasid lehte: ". $aeg . "</h1>"; 
 }
 
 	echo "Oled külastaja nr " . $lugeja ."<br/>";
-	echo "Viimati külastati lehte " . $file2-time(). "sekundit tagasi.";
+	
+	echo "Ajavahe, millal lehte viimati külastati (sekundites):"; 
+	echo time() - $file3;
 ?>
 	</body>
 </html>
