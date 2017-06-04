@@ -23,13 +23,14 @@ if(!isset($_SESSION['kylastusi'])){
 	fclose($f);
 }
 
+if(!isset($_SESSION['kylastusaeg'])){
 $file=fopen($viimane_aeg, "w");
 fwrite($file, "".time()."");
 fclose($file);
 
 $file2=file_get_contents("$viimane_aeg");
 $file3=(int)$file2;
-
+}
 require("pealeht.php");
 
 ?>

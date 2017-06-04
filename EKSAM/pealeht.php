@@ -33,7 +33,7 @@ if(isset($_COOKIE['viimati'])){
 
 	echo "Oled külastaja nr " . $lugeja ."<br/>";
 	
-	echo "Ajavahe, millal lehte viimati külastati (sekundites):"; 
+	echo "Ajavahe, millal lehte viimati külastati (sekundites): "; 
 	echo  $file3 - time();
 ?>
 	</body>
