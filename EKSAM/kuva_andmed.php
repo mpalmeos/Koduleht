@@ -29,6 +29,7 @@ fclose($file);
 
 $file2=file_get_contents("$viimane_aeg");
 $file3=(int)$file2;
+$realtime = $file3-time();
 }
 require("pealeht.php");
 
