@@ -1,7 +1,6 @@
 <?php
 
 session_start();
-require_once("kontroller.php");
 
 $kylastajate_arv = "kylastajate_arv.txt"; //Lahendusel kasutatud: https://hibbard.eu/how-to-make-a-simple-visitor-counter-using-php/
 $viimane_aeg = "viimati_aeg.txt"; //Lahendusel kasutatud: https://hibbard.eu/how-to-make-a-simple-visitor-counter-using-php/
