@@ -12,7 +12,7 @@ if(!file_exists($kylastajate_arv)){ //Lahendusel kasutatud: https://hibbard.eu/h
 }
 
 $f=fopen($kylastajate_arv, "r");
-$lugeja=fread($f);
+$lugeja=fread($f, "1");
 fclose($f);
 
 if(!isset($_SESSION['kylastusi'])){
