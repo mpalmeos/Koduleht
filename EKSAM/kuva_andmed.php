@@ -3,6 +3,8 @@
 session_start();
 require_once("kontroller.php");
 
+$kylastajate_arv = "kylastajate_arv.txt";
+
 if(!file_exists($kylastajate_arv)){ //Lahendusel kasutatud: https://hibbard.eu/how-to-make-a-simple-visitor-counter-using-php/
 	$f=fopen($kylastajate_arv, "w");
 	fwrite($f, "0");
