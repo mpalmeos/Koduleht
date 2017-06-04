@@ -10,7 +10,5 @@ function connect_db(){
 	mysqli_query($connection, "SET CHARACTER SET UTF8") or die("UTF-8 ei ole määratud - ".mysqli_error($connection));
 }
 
-function
-
 
 ?>
